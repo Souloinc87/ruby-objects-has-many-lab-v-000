@@ -6,8 +6,8 @@ class Post
   end
 
   def author_name
-    !!self.author.name 
+    !!self.author.name
   else
-    return nil
+     nil
   end
 end
