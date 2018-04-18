@@ -21,7 +21,7 @@ class Author
     post = Post.new(post_title)
     @posts << post
     post.author = self
-  end.compact
+  end
 
 
 end
