@@ -12,7 +12,8 @@ class Author
 
   def add_post(post)
     @posts << post
-    post.
+    post.author = self
+  end 
 
 
 end
