@@ -8,6 +8,7 @@ class Artist
 
   def songs(song)
     @songs << song
+    @@song_count += 1
   end
 
   def songs
