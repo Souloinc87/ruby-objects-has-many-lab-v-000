@@ -29,6 +29,7 @@ class Artist
     @songs.times do
     @@song_count += 1
    end
+   @@song_count
   end
 
 end
