@@ -15,11 +15,13 @@ class Author
   def add_post(post)
     @posts << post
     post.author = self
+    @@post_count += 1
   end
 
   def add_post_by_title(post_title)
     post = Post.new(post_title)
     add_post(post)
+    @@post_count += 1
     #binding.pry
   end
 end
