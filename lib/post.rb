@@ -11,5 +11,6 @@ class Post
       self.author.name
     else
       puts nil
+    end
   end
 end
