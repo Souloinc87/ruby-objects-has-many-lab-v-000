@@ -22,6 +22,5 @@ class Author
     post = Post.new(post_title)
     add_post(post)
     @@post_count += 1
-    
   end
 end
